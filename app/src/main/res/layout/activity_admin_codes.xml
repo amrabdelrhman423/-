@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCodesActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#EEEEEE"
+        android:id="@+id/fragment_top_id"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/code_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Enter Code......"
+            android:background="@android:color/white"
+            android:layout_margin="5dp"
+            android:textColorHint="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/code_descount"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Enter descount......"
+            android:background="@android:color/white"
+            android:layout_toRightOf="@id/code_admin"
+            android:layout_margin="5dp"
+            android:textColorHint="@android:color/black"
+            />
+
+        <Button
+            android:id="@+id/code_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Enter descount...."
+            android:background="@drawable/buttons"
+            android:layout_toRightOf="@id/code_descount"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@id/fragment_top_id"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

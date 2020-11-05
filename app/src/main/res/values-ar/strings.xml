@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مفروشات المحلة</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="already_have">هل لديك حساب؟ تسجيل الدخول</string>
+    <string name="check_new_orders">تحقق من الطلبات الجديدة</string>
+    <string name="congraorder">تهانينا ، لقد تم تقديم طلبك النهائي بنجاح قريبًا ، ستتلقى طلبك عند باب منزلك ، قريبًا سيتم التحقق منه</string>
+    <string name="join_now">نضم الان</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="maintain_product">الحفاظ على المنتج</string>
+    <string name="please_confirm">يرجى تأكيد تفاصيل الشحن الخاصة بك</string>
+    <string name="price">السعر</string>
+    <string name="price_desc">السعر قبل الخصم</string>
+    <string name="price_product">سعر المنتج...</string>
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_price">سعر المنتج</string>
+    <string name="product_quantity">كمية المنتج</string>
+    <string name="totalPrice">السعر الكلي</string>
+    <string name="cart">السلة</string>
+    <string name="delet">حذف</string>
+    <string name="descount">خصم</string>
+    <string name="details">تفاصيل المنتج</string>
+    <string name="favourites">المفضلة</string>
+    <string name="add_cart">اضف الي السلة</string>
+    <string name="admin">أنا مشرف؟</string>
+    <string name="create">إنشاء حساب</string>
+    <string name="forget">هل نسيت كلمة المرور ؟</string>
+    <string name="name">الاسم</string>
+    <string name="not_admin">أنا لست مشرفًا؟</string>
+    <string name="orders">الطلبات</string>
+    <string name="password">كلمة المرور</string>
+    <string name="phone_Number">"رقم الهاتف "</string>
+    <string name="phone_number">"رقم الهاتف "</string>
+    <string name="remember_me">تذكرنى</string>
+    <string name="login">دخـــول</string>
+    <string name="settings">الاعدادات</string>
+    <string name="confirm">تاكيد</string>
+</resources>
